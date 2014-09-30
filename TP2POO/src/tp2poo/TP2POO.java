@@ -5,6 +5,7 @@
  */
 package tp2poo;
 import java.time.Duration;
+import java.util.Date;
 /**
  *
  * @author Plouf
@@ -39,6 +40,7 @@ public class TP2POO {
     }
       //Exerice 1 fin */
       //Exercice 2
+        /*
     Livre l;
     Dvd d;
     l = new Livre();
@@ -70,7 +72,8 @@ public class TP2POO {
        System.out.println("Numero ISBN :"+a.getNumISBN());
        System.out.println("Nombre Page :"+a.getNbrPage());
        System.out.println("Auteur :"+a.getAuteur());
-       
+       */
     }
+                
     //Exercie 2 Fin
 }
