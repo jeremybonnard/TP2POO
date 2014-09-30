@@ -16,7 +16,7 @@ public class TP2POO {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-    //Exercice 1
+    /*Exercice 1
     Article a1,a2;
     a1=new Article();
         a1.setReference(100);
@@ -37,5 +37,40 @@ public class TP2POO {
         System.out.println("designation :"+a.getDesignation());
         System.out.println("prix :"+a.getPrix()+" €");
     }
-     // Exerice 1 fin 
+      //Exerice 1 fin */
+      //Exercice 2
+    Livre l;
+    Dvd d;
+    l = new Livre();
+    l.setReference(100);
+    l.setDesignation("Apprendre AnglarJs");
+    l.setPrix(8.5);
+    l.setNbrPage(86);
+    l.setNumISBN(858585858);
+    l.setAuteur("Hervé");
+    testLivre(l);
+    System.out.println(l.toString());
+    
+    
+    d = new Dvd(100,"L'histoire de l'informatique",19.50,90,"Girault");
+    testDvd(d);
+    System.out.println(d.toString());
+    }
+    public static void testDvd(Dvd a){
+       System.out.println("reference: "+a.getReference());
+       System.out.println("designation :"+a.getDesignation());
+       System.out.println("prix :"+a.getPrix()+" €");
+       System.out.println("Durée :"+a.getDuree());
+       System.out.println("Auteur :"+a.getRealisateur());
+    }
+    public static void testLivre(Livre a){
+       System.out.println("reference: "+a.getReference());
+       System.out.println("designation :"+a.getDesignation());
+       System.out.println("prix :"+a.getPrix()+" €");
+       System.out.println("Numero ISBN :"+a.getNumISBN());
+       System.out.println("Nombre Page :"+a.getNbrPage());
+       System.out.println("Auteur :"+a.getAuteur());
+       
+    }
+    //Exercie 2 Fin
 }
