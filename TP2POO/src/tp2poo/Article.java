@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package tp2poo;
+import java.util.ArrayList; 
 /**
  *
  * @author Plouf
